@@ -92,6 +92,18 @@ export function filterGeojson(
 
 export type YearValue = { year: number; total: number };
 
+export type TopPackage = SpendingGeoJSON["features"][0]["properties"];
+
+export function topPackagesByValue(
+  geojson: SpendingGeoJSON,
+  limit = 3,
+): TopPackage[] {
+  return [...geojson.features]
+    .sort((a, b) => b.properties.total_value_num - a.properties.total_value_num)
+    .slice(0, limit)
+    .map((feature) => feature.properties);
+}
+
 export function valueByYear(geojson: SpendingGeoJSON): YearValue[] {
   const totals = new Map<number, number>();
 

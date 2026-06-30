@@ -15,6 +15,7 @@ import {
   type RegionOption,
 } from "../lib/map-shared";
 import type { SpendingGeoJSON, SpendingIndex } from "../lib/spending-types";
+import { SpendingTopPackages } from "./SpendingTopPackages";
 import { SpendingValueChart } from "./SpendingValueChart";
 
 type MapConfig = {
@@ -162,6 +163,17 @@ function addSpendingLayers(map: maplibregl.Map, geojson: SpendingGeoJSON) {
   map.on("mouseleave", "unclustered-point", () => {
     map.getCanvas().style.cursor = "";
   });
+}
+
+function focusPackage(
+  map: maplibregl.Map,
+  props: SpendingGeoJSON["features"][0]["properties"],
+) {
+  map.easeTo({ center: [props.lng, props.lat], zoom: 13 });
+  new maplibregl.Popup({ offset: 16 })
+    .setLngLat([props.lng, props.lat])
+    .setHTML(popupHtml(props))
+    .addTo(map);
 }
 
 export function SpendingMap() {
@@ -359,7 +371,16 @@ export function SpendingMap() {
           <p>Loading map…</p>
         </div>
       )}
-      <SpendingValueChart geojson={filteredGeojson} />
+      <div className="map-panels">
+        <SpendingValueChart geojson={filteredGeojson} />
+      </div>
+      <SpendingTopPackages
+        geojson={filteredGeojson}
+        onSelect={(pkg) => {
+          const map = mapRef.current;
+          if (map) focusPackage(map, pkg);
+        }}
+      />
       <div ref={mapContainer} className="map" />
     </div>
   );

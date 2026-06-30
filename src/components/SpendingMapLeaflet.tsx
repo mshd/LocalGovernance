@@ -17,6 +17,7 @@ import {
   type RegionOption,
 } from "../lib/map-shared";
 import type { SpendingGeoJSON, SpendingIndex } from "../lib/spending-types";
+import { SpendingTopPackages } from "./SpendingTopPackages";
 import { SpendingValueChart } from "./SpendingValueChart";
 
 const BALI_CENTER: L.LatLngExpression = [BALI_VIEW.center[1], BALI_VIEW.center[0]];
@@ -69,6 +70,17 @@ function syncMarkers(
     marker.bindPopup(popupHtml(feature.properties));
     clusterGroup.addLayer(marker);
   }
+}
+
+function focusPackage(
+  map: L.Map,
+  props: SpendingGeoJSON["features"][0]["properties"],
+) {
+  map.setView([props.lat, props.lng], 13);
+  L.popup({ offset: [0, 4] })
+    .setLatLng([props.lat, props.lng])
+    .setContent(popupHtml(props))
+    .openOn(map);
 }
 
 export function SpendingMapLeaflet() {
@@ -244,7 +256,16 @@ export function SpendingMapLeaflet() {
           <p>Loading map…</p>
         </div>
       )}
-      <SpendingValueChart geojson={filteredGeojson} />
+      <div className="map-panels">
+        <SpendingValueChart geojson={filteredGeojson} />
+      </div>
+      <SpendingTopPackages
+        geojson={filteredGeojson}
+        onSelect={(pkg) => {
+          const map = mapRef.current;
+          if (map) focusPackage(map, pkg);
+        }}
+      />
       <div ref={mapContainer} className="map" />
     </div>
   );

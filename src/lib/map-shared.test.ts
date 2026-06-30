@@ -1,5 +1,10 @@
 import { describe, expect, test } from "bun:test";
-import { collectCategories, filterGeojson, valueByYear } from "./map-shared";
+import {
+  collectCategories,
+  filterGeojson,
+  topPackagesByValue,
+  valueByYear,
+} from "./map-shared";
 import type { SpendingGeoJSON } from "./spending-types";
 
 function feature(
@@ -63,6 +68,24 @@ describe("filterGeojson", () => {
     const filtered = filterGeojson(geojson, "", "", "Pemerintah");
     expect(filtered.features).toHaveLength(1);
     expect(filtered.features[0]?.properties.category).toBe("Pemerintah");
+  });
+});
+
+describe("topPackagesByValue", () => {
+  test("returns the highest-value packages up to the limit", () => {
+    const geojson: SpendingGeoJSON = {
+      type: "FeatureCollection",
+      features: [
+        feature(2023, 100, { id: 1, package_name: "Small" }),
+        feature(2024, 500, { id: 2, package_name: "Big" }),
+        feature(2025, 250, { id: 3, package_name: "Mid" }),
+        feature(2022, 600, { id: 4, package_name: "Biggest" }),
+      ],
+    };
+
+    const top = topPackagesByValue(geojson, 3);
+    expect(top.map((pkg) => pkg.id)).toEqual([4, 2, 3]);
+    expect(top[0]?.package_name).toBe("Biggest");
   });
 });
 

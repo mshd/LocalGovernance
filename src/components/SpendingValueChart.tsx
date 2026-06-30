@@ -90,16 +90,16 @@ export function SpendingValueChart({ geojson }: SpendingValueChartProps) {
 
   if (series.length === 0) {
     return (
-      <div className="map-value-chart map-value-chart-empty">
-        <span className="map-value-chart-title">Nilai kontrak per tahun</span>
+      <div className="map-panel map-value-chart map-value-chart-empty">
+        <span className="map-panel-title">Nilai kontrak per tahun</span>
         <span className="map-value-chart-empty-text">Tidak ada data</span>
       </div>
     );
   }
 
   return (
-    <div className="map-value-chart">
-      <span className="map-value-chart-title">Nilai kontrak per tahun</span>
+    <div className="map-panel map-value-chart">
+      <span className="map-panel-title">Nilai kontrak per tahun</span>
       <div ref={containerRef} />
     </div>
   );
