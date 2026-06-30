@@ -71,9 +71,13 @@ export type SpendingGeoJSON = GeoJSON.FeatureCollection<
     package_name: string | null;
     instansi_name: string;
     vendor_name: string | null;
+    procurement_type: string | null;
+    year: number;
     total_value_num: number;
     rank: number;
     score: number | null;
     region_slug: string;
+    lat: number;
+    lng: number;
   }
 >;

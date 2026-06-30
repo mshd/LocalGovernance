@@ -4,6 +4,7 @@ const DEFAULT_SHEET_URL =
   "https://docs.google.com/spreadsheets/d/e/2PACX-1vRCW_6YObCkJhZsp8CooIOfZLrxhrj3GqiO8RsgRX0k7Z3AfhtBdRsNZs-F-ELmNEpUccerlJW4-r9s/pub?gid=844077698&single=true&output=csv";
 
 const CACHE_TTL_MS = 5 * 60 * 1000;
+const RETRY_DELAYS_MS = [250, 750];
 
 export type SheetCoordinate = {
   lat: number;
@@ -22,6 +23,10 @@ type CacheEntry = {
 
 let cache: CacheEntry | null = null;
 let inflight: Promise<Map<number, SheetCoordinate>> | null = null;
+
+function wait(ms: number): Promise<void> {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
 
 function parseCoordinatePart(raw: string): number | null {
   const trimmed = raw.trim();
@@ -87,16 +92,27 @@ function csvToMap(csv: string): Map<number, SheetCoordinate> {
 
 async function fetchSheetCoordinates(): Promise<Map<number, SheetCoordinate>> {
   const url = process.env.SHEET_COORDINATES_URL ?? DEFAULT_SHEET_URL;
-  const response = await fetch(url, {
-    headers: { Accept: "text/csv" },
-  });
 
-  if (!response.ok) {
-    throw new Error(`Sheet fetch failed: ${response.status} ${response.statusText}`);
+  for (let attempt = 0; attempt <= RETRY_DELAYS_MS.length; attempt++) {
+    try {
+      const response = await fetch(url, {
+        headers: { Accept: "text/csv" },
+      });
+
+      if (!response.ok) {
+        throw new Error(`Sheet fetch failed: ${response.status} ${response.statusText}`);
+      }
+
+      const csv = await response.text();
+      return csvToMap(csv);
+    } catch (error) {
+      const delay = RETRY_DELAYS_MS[attempt];
+      if (delay == null) throw error;
+      await wait(delay);
+    }
   }
 
-  const csv = await response.text();
-  return csvToMap(csv);
+  throw new Error("Sheet fetch failed");
 }
 
 export async function loadSheetCoordinates(): Promise<Map<number, SheetCoordinate>> {
@@ -111,6 +127,13 @@ export async function loadSheetCoordinates(): Promise<Map<number, SheetCoordinat
     .then((byId) => {
       cache = { fetchedAt: Date.now(), byId };
       return byId;
+    })
+    .catch((error) => {
+      if (cache) {
+        console.warn("Using stale sheet coordinates after fetch failure:", error);
+        return cache.byId;
+      }
+      throw error;
     })
     .finally(() => {
       inflight = null;

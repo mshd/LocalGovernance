@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import maplibregl from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
+import { getMapStyle } from "../lib/map-style";
 import { getRegionCentroid } from "../lib/region-centroids";
 import type { SpendingGeoJSON, SpendingIndex } from "../lib/spending-types";
 
@@ -63,9 +64,25 @@ function filterGeojson(
   };
 }
 
+function formatCategory(procurementType: string | null): string {
+  if (!procurementType) return "—";
+  return procurementType.replaceAll("_", " ");
+}
+
+function formatCoordinates(lat: number, lng: number): string {
+  return `${lat.toFixed(6)}, ${lng.toFixed(6)}`;
+}
+
+function googleMapsUrl(lat: number, lng: number): string {
+  return `https://www.google.com/maps/search/?api=1&query=${lat},${lng}`;
+}
+
 function popupHtml(props: SpendingGeoJSON["features"][0]["properties"]): string {
   const title = escapeHtml(props.package_name ?? props.kode_paket);
   const instansi = escapeHtml(props.instansi_name);
+  const category = escapeHtml(formatCategory(props.procurement_type));
+  const coordinates = formatCoordinates(props.lat, props.lng);
+  const mapsUrl = googleMapsUrl(props.lat, props.lng);
   const vendor = props.vendor_name
     ? `<div>Penyedia: ${escapeHtml(props.vendor_name)}</div>`
     : "";
@@ -76,8 +93,12 @@ function popupHtml(props: SpendingGeoJSON["features"][0]["properties"]): string 
     <div class="spending-popup">
       <strong>${title}</strong>
       <div>${instansi}</div>
+      <div>Kategori: ${category}</div>
+      <div>Tahun: ${props.year}</div>
       <div>${formatIdr(props.total_value_num)}</div>
       <div>Peringkat #${props.rank} · ${escapeHtml(props.region_slug)}</div>
+      <div>Koordinat: ${coordinates}</div>
+      <div><a class="spending-popup-maps" href="${mapsUrl}" target="_blank" rel="noopener noreferrer">Buka di Google Maps</a></div>
       ${vendor}
       ${score}
     </div>
@@ -256,7 +277,12 @@ export function SpendingMap() {
 
         if (cancelled) return;
 
-        if (!config.maptilerKey) {
+        const style = getMapStyle({
+          hostname: window.location.hostname,
+          maptilerKey: config.maptilerKey,
+        });
+
+        if (!style) {
           setError(
             "Set MAPTILER_API_KEY in .env (get a free key at maptiler.com/cloud)",
           );
@@ -270,7 +296,7 @@ export function SpendingMap() {
 
         const map = new maplibregl.Map({
           container: container as HTMLElement,
-          style: `https://api.maptiler.com/maps/streets-v2/style.json?key=${config.maptilerKey}`,
+          style,
           center: BALI_VIEW.center,
           zoom: BALI_VIEW.zoom,
         });

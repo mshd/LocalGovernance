@@ -148,3 +148,12 @@ body,
 .spending-popup div + div {
   margin-top: 0.125rem;
 }
+
+.spending-popup-maps {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.spending-popup-maps:hover {
+  text-decoration: underline;
+}
