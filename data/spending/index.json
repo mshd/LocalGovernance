@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "source": "data/raw/bali-inaproc-2025.sqlite",
+    "extractedAt": "2026-06-30T03:40:08.213Z",
+    "limitPerRegion": 500,
+    "regionCount": 10
+  },
+  "regions": [
+    {
+      "slug": "kab-badung",
+      "instansi_name": "KAB. Badung",
+      "exported": 500,
+      "top_value": 76472913372
+    },
+    {
+      "slug": "kab-bangli",
+      "instansi_name": "KAB. Bangli",
+      "exported": 500,
+      "top_value": 9906305023
+    },
+    {
+      "slug": "kab-buleleng",
+      "instansi_name": "KAB. Buleleng",
+      "exported": 500,
+      "top_value": 20517523462
+    },
+    {
+      "slug": "kab-gianyar",
+      "instansi_name": "KAB. Gianyar",
+      "exported": 500,
+      "top_value": 249777360000
+    },
+    {
+      "slug": "kab-jembrana",
+      "instansi_name": "KAB. Jembrana",
+      "exported": 500,
+      "top_value": 7310000000
+    },
+    {
+      "slug": "kab-karangasem",
+      "instansi_name": "KAB. Karangasem",
+      "exported": 500,
+      "top_value": 7997017200
+    },
+    {
+      "slug": "kab-klungkung",
+      "instansi_name": "KAB. Klungkung",
+      "exported": 500,
+      "top_value": 14396698431
+    },
+    {
+      "slug": "kab-tabanan",
+      "instansi_name": "KAB. Tabanan",
+      "exported": 500,
+      "top_value": 45366894000
+    },
+    {
+      "slug": "kota-denpasar",
+      "instansi_name": "Pemerintah Daerah Kota Denpasar",
+      "exported": 500,
+      "top_value": 17382550672
+    },
+    {
+      "slug": "provinsi-bali",
+      "instansi_name": "Provinsi Bali",
+      "exported": 500,
+      "top_value": 132294240000
+    }
+  ]
+}
