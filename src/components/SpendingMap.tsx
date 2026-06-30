@@ -1,10 +1,13 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import maplibregl from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
 import { getMapStyle } from "../lib/map-style";
 import { getRegionCentroid } from "../lib/region-centroids";
 import {
   BALI_VIEW,
+  categoryLabel,
+  collectCategories,
+  collectVendors,
   filterGeojson,
   popupHtml,
   regionLabel,
@@ -12,6 +15,7 @@ import {
   type RegionOption,
 } from "../lib/map-shared";
 import type { SpendingGeoJSON, SpendingIndex } from "../lib/spending-types";
+import { SpendingValueChart } from "./SpendingValueChart";
 
 type MapConfig = {
   maptilerKey: string | null;
@@ -163,12 +167,29 @@ function addSpendingLayers(map: maplibregl.Map, geojson: SpendingGeoJSON) {
 export function SpendingMap() {
   const mapContainer = useRef<HTMLDivElement>(null);
   const mapRef = useRef<maplibregl.Map | null>(null);
-  const allGeojsonRef = useRef<SpendingGeoJSON | null>(null);
+  const [allGeojson, setAllGeojson] = useState<SpendingGeoJSON | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(true);
   const [pointCount, setPointCount] = useState(0);
   const [regions, setRegions] = useState<RegionOption[]>([]);
+  const [vendors, setVendors] = useState<string[]>([]);
+  const [categories, setCategories] = useState<string[]>([]);
   const [selectedRegion, setSelectedRegion] = useState("");
+  const [selectedVendor, setSelectedVendor] = useState("");
+  const [selectedCategory, setSelectedCategory] = useState("");
+
+  const filteredGeojson = useMemo(
+    () =>
+      allGeojson
+        ? filterGeojson(
+            allGeojson,
+            selectedRegion,
+            selectedVendor,
+            selectedCategory,
+          )
+        : null,
+    [allGeojson, selectedRegion, selectedVendor, selectedCategory],
+  );
 
   useEffect(() => {
     let cancelled = false;
@@ -202,8 +223,10 @@ export function SpendingMap() {
           return;
         }
 
-        allGeojsonRef.current = geojson;
+        setAllGeojson(geojson);
         setRegions(sortRegions(regionsData.regions));
+        setVendors(collectVendors(geojson));
+        setCategories(collectCategories(geojson));
         setPointCount(geojson.features.length);
 
         const map = new maplibregl.Map({
@@ -254,17 +277,15 @@ export function SpendingMap() {
 
   useEffect(() => {
     const map = mapRef.current;
-    const allGeojson = allGeojsonRef.current;
-    if (!map || !allGeojson || loading) return;
+    if (!map || !filteredGeojson || loading) return;
 
     const source = map.getSource("spending") as maplibregl.GeoJSONSource | undefined;
     if (!source) return;
 
-    const filtered = filterGeojson(allGeojson, selectedRegion);
-    source.setData(filtered);
-    setPointCount(filtered.features.length);
-    viewForGeojson(map, filtered, selectedRegion);
-  }, [selectedRegion, loading]);
+    source.setData(filteredGeojson);
+    setPointCount(filteredGeojson.features.length);
+    viewForGeojson(map, filteredGeojson, selectedRegion);
+  }, [filteredGeojson, selectedRegion, loading]);
 
   if (error) {
     return (
@@ -298,6 +319,37 @@ export function SpendingMap() {
             ))}
           </select>
         </label>
+        <label className="map-toolbar-field">
+          <span>Penyedia</span>
+          <select
+            className="map-toolbar-select-vendor"
+            value={selectedVendor}
+            onChange={(e) => setSelectedVendor(e.target.value)}
+            disabled={loading}
+          >
+            <option value="">Semua penyedia</option>
+            {vendors.map((vendor) => (
+              <option key={vendor} value={vendor} title={vendor}>
+                {vendor}
+              </option>
+            ))}
+          </select>
+        </label>
+        <label className="map-toolbar-field">
+          <span>Kategori</span>
+          <select
+            value={selectedCategory}
+            onChange={(e) => setSelectedCategory(e.target.value)}
+            disabled={loading}
+          >
+            <option value="">Semua kategori</option>
+            {categories.map((category) => (
+              <option key={category} value={category}>
+                {categoryLabel(category)}
+              </option>
+            ))}
+          </select>
+        </label>
         <span>
           {pointCount.toLocaleString("id-ID")} packages with coordinates
         </span>
@@ -307,6 +359,7 @@ export function SpendingMap() {
           <p>Loading map…</p>
         </div>
       )}
+      <SpendingValueChart geojson={filteredGeojson} />
       <div ref={mapContainer} className="map" />
     </div>
   );

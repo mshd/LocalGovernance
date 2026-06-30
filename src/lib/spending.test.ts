@@ -32,6 +32,7 @@ function spendingPoint(overrides: Partial<MapSpendingPoint>): MapSpendingPoint {
     lng: 115.16930486118568,
     display_lat: -8.661528007131304,
     display_lng: 115.173881595027,
+    category: "Pendidikan",
     ...overrides,
   };
 }

@@ -9,11 +9,13 @@ const RETRY_DELAYS_MS = [250, 750];
 export type SheetCoordinate = {
   lat: number;
   lng: number;
+  category: string | null;
 };
 
 type SheetRow = {
   id?: string;
   coordinates?: string;
+  category?: string;
 };
 
 type CacheEntry = {
@@ -84,7 +86,8 @@ function csvToMap(csv: string): Map<number, SheetCoordinate> {
     const coords = parseCoordinates(row.coordinates ?? "");
     if (!coords) continue;
 
-    byId.set(id, coords);
+    const category = row.category?.trim() || null;
+    byId.set(id, { ...coords, category });
   }
 
   return byId;

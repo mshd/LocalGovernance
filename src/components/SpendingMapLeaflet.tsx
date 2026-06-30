@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import "leaflet.markercluster";
@@ -7,6 +7,9 @@ import "leaflet.markercluster/dist/MarkerCluster.Default.css";
 import { getRegionCentroid } from "../lib/region-centroids";
 import {
   BALI_VIEW,
+  categoryLabel,
+  collectCategories,
+  collectVendors,
   filterGeojson,
   popupHtml,
   regionLabel,
@@ -14,6 +17,7 @@ import {
   type RegionOption,
 } from "../lib/map-shared";
 import type { SpendingGeoJSON, SpendingIndex } from "../lib/spending-types";
+import { SpendingValueChart } from "./SpendingValueChart";
 
 const BALI_CENTER: L.LatLngExpression = [BALI_VIEW.center[1], BALI_VIEW.center[0]];
 
@@ -71,12 +75,29 @@ export function SpendingMapLeaflet() {
   const mapContainer = useRef<HTMLDivElement>(null);
   const mapRef = useRef<L.Map | null>(null);
   const clusterRef = useRef<L.MarkerClusterGroup | null>(null);
-  const allGeojsonRef = useRef<SpendingGeoJSON | null>(null);
+  const [allGeojson, setAllGeojson] = useState<SpendingGeoJSON | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(true);
   const [pointCount, setPointCount] = useState(0);
   const [regions, setRegions] = useState<RegionOption[]>([]);
+  const [vendors, setVendors] = useState<string[]>([]);
+  const [categories, setCategories] = useState<string[]>([]);
   const [selectedRegion, setSelectedRegion] = useState("");
+  const [selectedVendor, setSelectedVendor] = useState("");
+  const [selectedCategory, setSelectedCategory] = useState("");
+
+  const filteredGeojson = useMemo(
+    () =>
+      allGeojson
+        ? filterGeojson(
+            allGeojson,
+            selectedRegion,
+            selectedVendor,
+            selectedCategory,
+          )
+        : null,
+    [allGeojson, selectedRegion, selectedVendor, selectedCategory],
+  );
 
   useEffect(() => {
     let cancelled = false;
@@ -95,8 +116,10 @@ export function SpendingMapLeaflet() {
 
         if (cancelled) return;
 
-        allGeojsonRef.current = geojson;
+        setAllGeojson(geojson);
         setRegions(sortRegions(regionsData.regions));
+        setVendors(collectVendors(geojson));
+        setCategories(collectCategories(geojson));
         setPointCount(geojson.features.length);
 
         const map = L.map(container as HTMLElement, {
@@ -146,14 +169,12 @@ export function SpendingMapLeaflet() {
   useEffect(() => {
     const map = mapRef.current;
     const clusterGroup = clusterRef.current;
-    const allGeojson = allGeojsonRef.current;
-    if (!map || !clusterGroup || !allGeojson || loading) return;
+    if (!map || !clusterGroup || !filteredGeojson || loading) return;
 
-    const filtered = filterGeojson(allGeojson, selectedRegion);
-    syncMarkers(clusterGroup, filtered);
-    setPointCount(filtered.features.length);
-    viewForGeojson(map, clusterGroup, filtered, selectedRegion);
-  }, [selectedRegion, loading]);
+    syncMarkers(clusterGroup, filteredGeojson);
+    setPointCount(filteredGeojson.features.length);
+    viewForGeojson(map, clusterGroup, filteredGeojson, selectedRegion);
+  }, [filteredGeojson, selectedRegion, loading]);
 
   if (error) {
     return (
@@ -183,6 +204,37 @@ export function SpendingMapLeaflet() {
             ))}
           </select>
         </label>
+        <label className="map-toolbar-field">
+          <span>Penyedia</span>
+          <select
+            className="map-toolbar-select-vendor"
+            value={selectedVendor}
+            onChange={(e) => setSelectedVendor(e.target.value)}
+            disabled={loading}
+          >
+            <option value="">Semua penyedia</option>
+            {vendors.map((vendor) => (
+              <option key={vendor} value={vendor} title={vendor}>
+                {vendor}
+              </option>
+            ))}
+          </select>
+        </label>
+        <label className="map-toolbar-field">
+          <span>Kategori</span>
+          <select
+            value={selectedCategory}
+            onChange={(e) => setSelectedCategory(e.target.value)}
+            disabled={loading}
+          >
+            <option value="">Semua kategori</option>
+            {categories.map((category) => (
+              <option key={category} value={category}>
+                {categoryLabel(category)}
+              </option>
+            ))}
+          </select>
+        </label>
         <span>
           {pointCount.toLocaleString("id-ID")} packages with coordinates
         </span>
@@ -192,6 +244,7 @@ export function SpendingMapLeaflet() {
           <p>Loading map…</p>
         </div>
       )}
+      <SpendingValueChart geojson={filteredGeojson} />
       <div ref={mapContainer} className="map" />
     </div>
   );

@@ -61,6 +61,7 @@ export type MapSpendingPoint = SpendingItem & {
   lng: number;
   display_lat: number;
   display_lng: number;
+  category: string | null;
 };
 
 export type SpendingGeoJSON = GeoJSON.FeatureCollection<
@@ -72,6 +73,7 @@ export type SpendingGeoJSON = GeoJSON.FeatureCollection<
     instansi_name: string;
     vendor_name: string | null;
     procurement_type: string | null;
+    category: string | null;
     year: number;
     total_value_num: number;
     rank: number;

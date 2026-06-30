@@ -40,23 +40,83 @@ export function sortRegions(regions: RegionOption[]): RegionOption[] {
   });
 }
 
+export const MAX_VENDOR_SELECT_LENGTH = 80;
+
+export function collectVendors(geojson: SpendingGeoJSON): string[] {
+  const vendors = new Set<string>();
+
+  for (const feature of geojson.features) {
+    const name = feature.properties.vendor_name;
+    if (name && name.length <= MAX_VENDOR_SELECT_LENGTH) {
+      vendors.add(name);
+    }
+  }
+
+  return [...vendors].sort((a, b) => a.localeCompare(b, "id"));
+}
+
+export function categoryLabel(category: string | null): string {
+  return category ?? "—";
+}
+
+export function collectCategories(geojson: SpendingGeoJSON): string[] {
+  const categories = new Set<string>();
+
+  for (const feature of geojson.features) {
+    const value = feature.properties.category;
+    if (value) categories.add(value);
+  }
+
+  return [...categories].sort((a, b) => a.localeCompare(b, "id"));
+}
+
 export function filterGeojson(
   geojson: SpendingGeoJSON,
   regionSlug: string,
+  vendorName = "",
+  category = "",
 ): SpendingGeoJSON {
-  if (!regionSlug) return geojson;
+  if (!regionSlug && !vendorName && !category) return geojson;
 
   return {
     type: "FeatureCollection",
-    features: geojson.features.filter(
-      (feature) => feature.properties.region_slug === regionSlug,
-    ),
+    features: geojson.features.filter((feature) => {
+      const props = feature.properties;
+      if (regionSlug && props.region_slug !== regionSlug) return false;
+      if (vendorName && props.vendor_name !== vendorName) return false;
+      if (category && props.category !== category) return false;
+      return true;
+    }),
   };
 }
 
-function formatCategory(procurementType: string | null): string {
-  if (!procurementType) return "—";
-  return procurementType.replaceAll("_", " ");
+export type YearValue = { year: number; total: number };
+
+export function valueByYear(geojson: SpendingGeoJSON): YearValue[] {
+  const totals = new Map<number, number>();
+
+  for (const feature of geojson.features) {
+    const { year, total_value_num } = feature.properties;
+    totals.set(year, (totals.get(year) ?? 0) + total_value_num);
+  }
+
+  return [...totals.entries()]
+    .sort(([a], [b]) => a - b)
+    .map(([year, total]) => ({ year, total }));
+}
+
+export function formatShortIdr(value: number): string {
+  const abs = Math.abs(value);
+  if (abs >= 1_000_000_000_000) {
+    return `${(value / 1_000_000_000_000).toLocaleString("id-ID", { maximumFractionDigits: 1 })} T`;
+  }
+  if (abs >= 1_000_000_000) {
+    return `${(value / 1_000_000_000).toLocaleString("id-ID", { maximumFractionDigits: 1 })} M`;
+  }
+  if (abs >= 1_000_000) {
+    return `${(value / 1_000_000).toLocaleString("id-ID", { maximumFractionDigits: 0 })} jt`;
+  }
+  return formatIdr(value);
 }
 
 function formatCoordinates(lat: number, lng: number): string {
@@ -72,7 +132,7 @@ export function popupHtml(
 ): string {
   const title = escapeHtml(props.package_name ?? props.kode_paket);
   const instansi = escapeHtml(props.instansi_name);
-  const category = escapeHtml(formatCategory(props.procurement_type));
+  const category = escapeHtml(categoryLabel(props.category));
   const coordinates = formatCoordinates(props.lat, props.lng);
   const mapsUrl = googleMapsUrl(props.lat, props.lng);
   const vendor = props.vendor_name

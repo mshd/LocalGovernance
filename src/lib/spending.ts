@@ -38,7 +38,7 @@ export async function loadAllSpendingPoints(options?: {
     loadSpendingIndex(),
     loadSheetCoordinates().catch((error) => {
       console.warn("Failed to load sheet coordinates:", error);
-      return new Map<number, { lat: number; lng: number }>();
+      return new Map<number, { lat: number; lng: number; category: string | null }>();
     }),
   ]);
 
@@ -61,6 +61,7 @@ export async function loadAllSpendingPoints(options?: {
         region_slug: slug,
         display_lat: sheetCoord.lat,
         display_lng: sheetCoord.lng,
+        category: sheetCoord.category,
       });
     }
   }
@@ -84,6 +85,7 @@ export function toGeoJSON(points: MapSpendingPoint[]): SpendingGeoJSON {
         instansi_name: point.instansi_name,
         vendor_name: point.vendor_name,
         procurement_type: point.procurement_type,
+        category: point.category,
         year: point.year,
         total_value_num: point.total_value_num,
         rank: point.rank,
