@@ -5,7 +5,7 @@ import { getMapStyle } from "../lib/map-style";
 import { getRegionCentroid } from "../lib/region-centroids";
 import {
   BALI_VIEW,
-  categoryLabel,
+  categoryDisplay,
   collectCategories,
   collectVendors,
   filterGeojson,
@@ -15,8 +15,8 @@ import {
   type RegionOption,
 } from "../lib/map-shared";
 import type { SpendingGeoJSON, SpendingIndex } from "../lib/spending-types";
+import { SpendingMapLegend } from "./SpendingMapLegend";
 import { SpendingTopPackages } from "./SpendingTopPackages";
-import { SpendingValueChart } from "./SpendingValueChart";
 
 type MapConfig = {
   maptilerKey: string | null;
@@ -357,7 +357,7 @@ export function SpendingMap() {
             <option value="">Semua kategori</option>
             {categories.map((category) => (
               <option key={category} value={category}>
-                {categoryLabel(category)}
+                {categoryDisplay(category)}
               </option>
             ))}
           </select>
@@ -372,7 +372,7 @@ export function SpendingMap() {
         </div>
       )}
       <div className="map-panels">
-        <SpendingValueChart geojson={filteredGeojson} />
+        <SpendingMapLegend />
       </div>
       <SpendingTopPackages
         geojson={filteredGeojson}

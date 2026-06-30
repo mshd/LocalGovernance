@@ -1,7 +1,10 @@
 import { describe, expect, test } from "bun:test";
 import {
   collectCategories,
+  categoryDisplay,
+  categoryEmoji,
   filterGeojson,
+  popupHtml,
   topPackagesByValue,
   valueByYear,
 } from "./map-shared";
@@ -101,5 +104,32 @@ describe("collectCategories", () => {
     };
 
     expect(collectCategories(geojson)).toEqual(["Fasum", "Pemerintah"]);
+  });
+});
+
+describe("categoryEmoji", () => {
+  test("maps known categories to emoji", () => {
+    expect(categoryEmoji("Hospital")).toBe("🏥");
+    expect(categoryEmoji("Pendidikan")).toBe("📚");
+    expect(categoryDisplay("Jalan")).toBe("🛣️ Jalan");
+  });
+
+  test("falls back for unknown or missing categories", () => {
+    expect(categoryEmoji(null)).toBe("📋");
+    expect(categoryEmoji("Unknown")).toBe("📋");
+  });
+});
+
+describe("popupHtml", () => {
+  test("renders a highlighted category badge with emoji", () => {
+    const html = popupHtml(
+      feature(2025, 100, { category: "Hospital", package_name: "Test pkg" })
+        .properties,
+    );
+
+    expect(html).toContain("spending-popup-category-badge");
+    expect(html).toContain("🏥");
+    expect(html).toContain("Hospital");
+    expect(html).not.toContain("Kategori:");
   });
 });

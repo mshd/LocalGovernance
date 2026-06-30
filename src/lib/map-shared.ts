@@ -55,8 +55,38 @@ export function collectVendors(geojson: SpendingGeoJSON): string[] {
   return [...vendors].sort((a, b) => a.localeCompare(b, "id"));
 }
 
+export const CATEGORY_EMOJI: Record<string, string> = {
+  Education: "🎓",
+  Fasum: "🏢",
+  Hospital: "🏥",
+  Jalan: "🛣️",
+  Jasa: "🔧",
+  Pemerintah: "🏛️",
+  Pendidikan: "📚",
+  "Sarana dan Prasarana": "🏗️",
+};
+
+const DEFAULT_CATEGORY_EMOJI = "📋";
+
+export function categoryEmoji(category: string | null): string {
+  if (!category) return DEFAULT_CATEGORY_EMOJI;
+  return CATEGORY_EMOJI[category] ?? DEFAULT_CATEGORY_EMOJI;
+}
+
 export function categoryLabel(category: string | null): string {
   return category ?? "—";
+}
+
+export function categoryDisplay(category: string | null): string {
+  if (!category) return "—";
+  return `${categoryEmoji(category)} ${category}`;
+}
+
+function categorySlug(category: string): string {
+  return category
+    .toLowerCase()
+    .replaceAll(/[^a-z0-9]+/g, "-")
+    .replaceAll(/^-|-$/g, "");
 }
 
 export function collectCategories(geojson: SpendingGeoJSON): string[] {
@@ -144,7 +174,18 @@ export function popupHtml(
 ): string {
   const title = escapeHtml(props.package_name ?? props.kode_paket);
   const instansi = escapeHtml(props.instansi_name);
-  const category = escapeHtml(categoryLabel(props.category));
+  const categoryName = categoryLabel(props.category);
+  const category = escapeHtml(categoryName);
+  const emoji = categoryEmoji(props.category);
+  const categoryBadge =
+    props.category != null
+      ? `<div class="spending-popup-category">
+          <span class="spending-popup-category-badge spending-popup-category-badge--${escapeHtml(categorySlug(props.category))}">
+            <span class="spending-popup-category-emoji" aria-hidden="true">${emoji}</span>
+            ${category}
+          </span>
+        </div>`
+      : "";
   const coordinates = formatCoordinates(props.lat, props.lng);
   const mapsUrl = googleMapsUrl(props.lat, props.lng);
   const vendor = props.vendor_name
@@ -156,8 +197,8 @@ export function popupHtml(
   return `
     <div class="spending-popup">
       <strong>${title}</strong>
+      ${categoryBadge}
       <div>${instansi}</div>
-      <div>Kategori: ${category}</div>
       <div>Tahun: ${props.year}</div>
       <div>${formatIdr(props.total_value_num)}</div>
       <div>Peringkat #${props.rank} · ${escapeHtml(props.region_slug)}</div>

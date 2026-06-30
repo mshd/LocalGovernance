@@ -7,7 +7,7 @@ import "leaflet.markercluster/dist/MarkerCluster.Default.css";
 import { getRegionCentroid } from "../lib/region-centroids";
 import {
   BALI_VIEW,
-  categoryLabel,
+  categoryDisplay,
   collectCategories,
   collectVendors,
   filterGeojson,
@@ -17,8 +17,8 @@ import {
   type RegionOption,
 } from "../lib/map-shared";
 import type { SpendingGeoJSON, SpendingIndex } from "../lib/spending-types";
+import { SpendingMapLegend } from "./SpendingMapLegend";
 import { SpendingTopPackages } from "./SpendingTopPackages";
-import { SpendingValueChart } from "./SpendingValueChart";
 
 const BALI_CENTER: L.LatLngExpression = [BALI_VIEW.center[1], BALI_VIEW.center[0]];
 
@@ -242,7 +242,7 @@ export function SpendingMapLeaflet() {
             <option value="">Semua kategori</option>
             {categories.map((category) => (
               <option key={category} value={category}>
-                {categoryLabel(category)}
+                {categoryDisplay(category)}
               </option>
             ))}
           </select>
@@ -257,7 +257,7 @@ export function SpendingMapLeaflet() {
         </div>
       )}
       <div className="map-panels">
-        <SpendingValueChart geojson={filteredGeojson} />
+        <SpendingMapLegend />
       </div>
       <SpendingTopPackages
         geojson={filteredGeojson}
