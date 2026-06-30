@@ -24,6 +24,10 @@ const server = serve({
 
     "/api/spending": {
       GET: async (req) => {
+        if (!isDbAvailable()) {
+          return Response.json({ error: "Database not available" }, { status: 503 });
+        }
+
         const url = new URL(req.url);
         const region = url.searchParams.get("region") ?? undefined;
 
@@ -38,6 +42,10 @@ const server = serve({
 
     "/api/spending/geojson": {
       GET: async (req) => {
+        if (!isDbAvailable()) {
+          return Response.json({ error: "Database not available" }, { status: 503 });
+        }
+
         const url = new URL(req.url);
         const region = url.searchParams.get("region") ?? undefined;
 
@@ -47,7 +55,12 @@ const server = serve({
     },
 
     "/api/spending/regions": {
-      GET: async () => Response.json(await loadSpendingIndex()),
+      GET: () => {
+        if (!isDbAvailable()) {
+          return Response.json({ error: "Database not available" }, { status: 503 });
+        }
+        return Response.json(loadSpendingIndex());
+      },
     },
 
     "/api/db/status": {

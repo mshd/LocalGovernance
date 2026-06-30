@@ -1,23 +1,11 @@
 import { Database } from "bun:sqlite";
 import { mkdir } from "node:fs/promises";
 import path from "node:path";
+import { SLUG_BY_INSTANSI } from "../src/lib/region-slugs";
 
 const SOURCE_DB = "data/raw/bali-inaproc-2025.sqlite";
 const OUTPUT_DIR = "data/spending";
 const LIMIT_PER_REGION = 500;
-
-const SLUG_BY_INSTANSI: Record<string, string> = {
-  "Provinsi Bali": "provinsi-bali",
-  "KAB. Badung": "kab-badung",
-  "Pemerintah Daerah Kota Denpasar": "kota-denpasar",
-  "KAB. Jembrana": "kab-jembrana",
-  "KAB. Bangli": "kab-bangli",
-  "KAB. Buleleng": "kab-buleleng",
-  "KAB. Gianyar": "kab-gianyar",
-  "KAB. Klungkung": "kab-klungkung",
-  "KAB. Tabanan": "kab-tabanan",
-  "KAB. Karangasem": "kab-karangasem",
-};
 
 type RealisasiRow = {
   id: number;

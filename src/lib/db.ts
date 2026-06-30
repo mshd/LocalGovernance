@@ -1,7 +1,13 @@
 import { Database } from "bun:sqlite";
 import { existsSync } from "node:fs";
+import path from "node:path";
 
-export const SOURCE_DB_PATH = "data/raw/bali-inaproc-2025.sqlite";
+export const SOURCE_DB_PATH = path.join(
+  process.cwd(),
+  "data",
+  "raw",
+  "bali-inaproc-2025.sqlite",
+);
 
 let db: Database | null = null;
 

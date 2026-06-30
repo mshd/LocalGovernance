@@ -44,7 +44,7 @@ export type SpendingIndex = {
   meta: {
     source: string;
     extractedAt: string;
-    limitPerRegion: number;
+    limitPerRegion?: number;
     regionCount: number;
   };
   regions: Array<{

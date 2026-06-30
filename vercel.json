@@ -6,7 +6,7 @@
   "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }],
   "functions": {
     "api/**/*.ts": {
-      "includeFiles": "data/spending/**"
+      "includeFiles": "data/raw/bali-inaproc-2025.sqlite"
     }
   }
 }
