@@ -10,27 +10,6 @@ import type {
 
 const SPENDING_DIR = path.join(process.cwd(), "data", "spending");
 
-/** Spread overlapping centroid points in a deterministic ring. */
-export function spreadCoordinates(
-  lat: number,
-  lng: number,
-  seed: string,
-): { lat: number; lng: number } {
-  let hash = 0;
-  for (let i = 0; i < seed.length; i++) {
-    hash = (hash * 31 + seed.charCodeAt(i)) | 0;
-  }
-
-  const angle = ((hash % 360) * Math.PI) / 180;
-  const radius = 0.004 + (Math.abs(hash) % 80) / 8000;
-  const latRad = (lat * Math.PI) / 180;
-
-  return {
-    lat: lat + radius * Math.sin(angle),
-    lng: lng + (radius * Math.cos(angle)) / Math.cos(latRad),
-  };
-}
-
 export function formatIdr(value: number): string {
   return new Intl.NumberFormat("id-ID", {
     style: "currency",
@@ -75,14 +54,13 @@ export async function loadAllSpendingPoints(options?: {
       const sheetCoord = sheetCoordinates.get(item.id);
       if (!sheetCoord) continue;
 
-      const spread = spreadCoordinates(sheetCoord.lat, sheetCoord.lng, item.kode_paket);
       points.push({
         ...item,
         lat: sheetCoord.lat,
         lng: sheetCoord.lng,
         region_slug: slug,
-        display_lat: spread.lat,
-        display_lng: spread.lng,
+        display_lat: sheetCoord.lat,
+        display_lng: sheetCoord.lng,
       });
     }
   }
@@ -97,7 +75,7 @@ export function toGeoJSON(points: MapSpendingPoint[]): SpendingGeoJSON {
       type: "Feature",
       geometry: {
         type: "Point",
-        coordinates: [point.display_lng, point.display_lat],
+        coordinates: [point.lng, point.lat],
       },
       properties: {
         id: point.id,
