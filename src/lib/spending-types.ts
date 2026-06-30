@@ -21,8 +21,6 @@ export type SpendingItem = {
   rank: number;
   total_value_num: number;
   score: number | null;
-  lat: number;
-  lng: number;
   show: boolean;
 };
 
@@ -38,7 +36,6 @@ export type RegionExport = {
     limit: number;
     count: number;
     total_rows_in_source: number;
-    centroid: { lat: number; lng: number };
   };
   items: SpendingItem[];
 };
@@ -60,6 +57,8 @@ export type SpendingIndex = {
 
 export type MapSpendingPoint = SpendingItem & {
   region_slug: string;
+  lat: number;
+  lng: number;
   display_lat: number;
   display_lng: number;
 };
@@ -75,7 +74,6 @@ export type SpendingGeoJSON = GeoJSON.FeatureCollection<
     total_value_num: number;
     rank: number;
     score: number | null;
-    show: boolean;
     region_slug: string;
   }
 >;

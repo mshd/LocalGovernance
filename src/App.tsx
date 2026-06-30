@@ -6,7 +6,7 @@ export function App() {
     <div className="app">
       <header className="app-header">
         <div>
-          <h1>Local Governance</h1>
+          <h1>MapTheBudget</h1>
           <p>Government spending map — OpenStreetMap via MapTiler</p>
         </div>
       </header>

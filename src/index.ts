@@ -21,12 +21,10 @@ const server = serve({
       GET: async (req) => {
         const url = new URL(req.url);
         const region = url.searchParams.get("region") ?? undefined;
-        const showOnly = url.searchParams.get("showOnly") === "true";
 
-        const points = await loadAllSpendingPoints({ region, showOnly });
+        const points = await loadAllSpendingPoints({ region });
         return Response.json({
           count: points.length,
-          showOnly,
           region: region ?? null,
           points,
         });
@@ -37,9 +35,8 @@ const server = serve({
       GET: async (req) => {
         const url = new URL(req.url);
         const region = url.searchParams.get("region") ?? undefined;
-        const showOnly = url.searchParams.get("showOnly") === "true";
 
-        const points = await loadAllSpendingPoints({ region, showOnly });
+        const points = await loadAllSpendingPoints({ region });
         return Response.json(toGeoJSON(points));
       },
     },
@@ -57,4 +54,4 @@ const server = serve({
   },
 });
 
-console.log(`🚀 Local Governance running at ${server.url}`);
+console.log(`🚀 MapTheBudget running at ${server.url}`);

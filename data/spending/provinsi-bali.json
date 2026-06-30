@@ -9,11 +9,7 @@
     "rankBy": "total_value",
     "limit": 500,
     "count": 500,
-    "total_rows_in_source": 33467,
-    "centroid": {
-      "lat": -8.4095,
-      "lng": 115.1889
-    }
+    "total_rows_in_source": 33467
   },
   "items": [
     {
@@ -39,8 +35,6 @@
       "rank": 1,
       "total_value_num": 132294240000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -66,8 +60,6 @@
       "rank": 2,
       "total_value_num": 115700000000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -93,8 +85,6 @@
       "rank": 3,
       "total_value_num": 49055454360,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -120,8 +110,6 @@
       "rank": 4,
       "total_value_num": 44116000000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -147,8 +135,6 @@
       "rank": 5,
       "total_value_num": 22928587000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -174,8 +160,6 @@
       "rank": 6,
       "total_value_num": 19660095665,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -201,8 +185,6 @@
       "rank": 7,
       "total_value_num": 18931108293,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -228,8 +210,6 @@
       "rank": 8,
       "total_value_num": 16029426691,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -255,8 +235,6 @@
       "rank": 9,
       "total_value_num": 15638212560,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -282,8 +260,6 @@
       "rank": 10,
       "total_value_num": 14427041221,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -309,8 +285,6 @@
       "rank": 11,
       "total_value_num": 14403817967,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -336,8 +310,6 @@
       "rank": 12,
       "total_value_num": 13561088262,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -363,8 +335,6 @@
       "rank": 13,
       "total_value_num": 10798160683,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -390,8 +360,6 @@
       "rank": 14,
       "total_value_num": 9807051000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -417,8 +385,6 @@
       "rank": 15,
       "total_value_num": 9706350600,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -444,8 +410,6 @@
       "rank": 16,
       "total_value_num": 8849280000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -471,8 +435,6 @@
       "rank": 17,
       "total_value_num": 8824746168,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -498,8 +460,6 @@
       "rank": 18,
       "total_value_num": 8491699999,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -525,8 +485,6 @@
       "rank": 19,
       "total_value_num": 8114725079,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -552,8 +510,6 @@
       "rank": 20,
       "total_value_num": 7608680001,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -579,8 +535,6 @@
       "rank": 21,
       "total_value_num": 6998139520,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -606,8 +560,6 @@
       "rank": 22,
       "total_value_num": 6787000000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -633,8 +585,6 @@
       "rank": 23,
       "total_value_num": 6542484228,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -660,8 +610,6 @@
       "rank": 24,
       "total_value_num": 5554249024,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -687,8 +635,6 @@
       "rank": 25,
       "total_value_num": 5294100000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -714,8 +660,6 @@
       "rank": 26,
       "total_value_num": 5178945000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -741,8 +685,6 @@
       "rank": 27,
       "total_value_num": 5173340200,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -768,8 +710,6 @@
       "rank": 28,
       "total_value_num": 5119890718,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -795,8 +735,6 @@
       "rank": 29,
       "total_value_num": 5091786105,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -822,8 +760,6 @@
       "rank": 30,
       "total_value_num": 5071693200,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -849,8 +785,6 @@
       "rank": 31,
       "total_value_num": 4995000000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -876,8 +810,6 @@
       "rank": 32,
       "total_value_num": 4995000000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -903,8 +835,6 @@
       "rank": 33,
       "total_value_num": 4988991934,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -930,8 +860,6 @@
       "rank": 34,
       "total_value_num": 4825000000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -957,8 +885,6 @@
       "rank": 35,
       "total_value_num": 4784256000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -984,8 +910,6 @@
       "rank": 36,
       "total_value_num": 4726370579,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -1011,8 +935,6 @@
       "rank": 37,
       "total_value_num": 4686242400,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -1038,8 +960,6 @@
       "rank": 38,
       "total_value_num": 4683639899,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -1065,8 +985,6 @@
       "rank": 39,
       "total_value_num": 4465885167,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -1092,8 +1010,6 @@
       "rank": 40,
       "total_value_num": 4099000000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -1119,8 +1035,6 @@
       "rank": 41,
       "total_value_num": 4032802725,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -1146,8 +1060,6 @@
       "rank": 42,
       "total_value_num": 3829187839,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -1173,8 +1085,6 @@
       "rank": 43,
       "total_value_num": 3818711694,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -1200,8 +1110,6 @@
       "rank": 44,
       "total_value_num": 3714000000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -1227,8 +1135,6 @@
       "rank": 45,
       "total_value_num": 3705508560,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -1254,8 +1160,6 @@
       "rank": 46,
       "total_value_num": 3699050957,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -1281,8 +1185,6 @@
       "rank": 47,
       "total_value_num": 3691341630,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -1308,8 +1210,6 @@
       "rank": 48,
       "total_value_num": 3677879400,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -1335,8 +1235,6 @@
       "rank": 49,
       "total_value_num": 3671604263,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -1362,8 +1260,6 @@
       "rank": 50,
       "total_value_num": 3671551116,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -1389,8 +1285,6 @@
       "rank": 51,
       "total_value_num": 3651980855,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -1416,8 +1310,6 @@
       "rank": 52,
       "total_value_num": 3286419000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -1443,8 +1335,6 @@
       "rank": 53,
       "total_value_num": 3266990253,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -1470,8 +1360,6 @@
       "rank": 54,
       "total_value_num": 3185700000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -1497,8 +1385,6 @@
       "rank": 55,
       "total_value_num": 3089865751,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -1524,8 +1410,6 @@
       "rank": 56,
       "total_value_num": 3040493059,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -1551,8 +1435,6 @@
       "rank": 57,
       "total_value_num": 2999640931,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -1578,8 +1460,6 @@
       "rank": 58,
       "total_value_num": 2999020200,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -1605,8 +1485,6 @@
       "rank": 59,
       "total_value_num": 2965920000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -1632,8 +1510,6 @@
       "rank": 60,
       "total_value_num": 2958105600,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -1659,8 +1535,6 @@
       "rank": 61,
       "total_value_num": 2923934000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -1686,8 +1560,6 @@
       "rank": 62,
       "total_value_num": 2905924500,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -1713,8 +1585,6 @@
       "rank": 63,
       "total_value_num": 2845105411,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -1740,8 +1610,6 @@
       "rank": 64,
       "total_value_num": 2774473029,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -1767,8 +1635,6 @@
       "rank": 65,
       "total_value_num": 2545675221,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -1794,8 +1660,6 @@
       "rank": 66,
       "total_value_num": 2396028600,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -1821,8 +1685,6 @@
       "rank": 67,
       "total_value_num": 2275600000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -1848,8 +1710,6 @@
       "rank": 68,
       "total_value_num": 2258203350,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -1875,8 +1735,6 @@
       "rank": 69,
       "total_value_num": 2178380000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -1902,8 +1760,6 @@
       "rank": 70,
       "total_value_num": 2108203999,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -1929,8 +1785,6 @@
       "rank": 71,
       "total_value_num": 2104498800,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -1956,8 +1810,6 @@
       "rank": 72,
       "total_value_num": 1976830213,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -1983,8 +1835,6 @@
       "rank": 73,
       "total_value_num": 1964700000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -2010,8 +1860,6 @@
       "rank": 74,
       "total_value_num": 1932999999,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -2037,8 +1885,6 @@
       "rank": 75,
       "total_value_num": 1925200008,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -2064,8 +1910,6 @@
       "rank": 76,
       "total_value_num": 1896000000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -2091,8 +1935,6 @@
       "rank": 77,
       "total_value_num": 1895000000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -2118,8 +1960,6 @@
       "rank": 78,
       "total_value_num": 1888924008,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -2145,8 +1985,6 @@
       "rank": 79,
       "total_value_num": 1834012173,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -2172,8 +2010,6 @@
       "rank": 80,
       "total_value_num": 1825739999,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -2199,8 +2035,6 @@
       "rank": 81,
       "total_value_num": 1767342000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -2226,8 +2060,6 @@
       "rank": 82,
       "total_value_num": 1761707640,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -2253,8 +2085,6 @@
       "rank": 83,
       "total_value_num": 1749113936,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -2280,8 +2110,6 @@
       "rank": 84,
       "total_value_num": 1698400000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -2307,8 +2135,6 @@
       "rank": 85,
       "total_value_num": 1677000000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -2334,8 +2160,6 @@
       "rank": 86,
       "total_value_num": 1671307163,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -2361,8 +2185,6 @@
       "rank": 87,
       "total_value_num": 1663347000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -2388,8 +2210,6 @@
       "rank": 88,
       "total_value_num": 1641079500,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -2415,8 +2235,6 @@
       "rank": 89,
       "total_value_num": 1637250000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -2442,8 +2260,6 @@
       "rank": 90,
       "total_value_num": 1634825916,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -2469,8 +2285,6 @@
       "rank": 91,
       "total_value_num": 1633892250,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -2496,8 +2310,6 @@
       "rank": 92,
       "total_value_num": 1623344800,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -2523,8 +2335,6 @@
       "rank": 93,
       "total_value_num": 1599169600,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -2550,8 +2360,6 @@
       "rank": 94,
       "total_value_num": 1599000000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -2577,8 +2385,6 @@
       "rank": 95,
       "total_value_num": 1549500000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -2604,8 +2410,6 @@
       "rank": 96,
       "total_value_num": 1530965369,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -2631,8 +2435,6 @@
       "rank": 97,
       "total_value_num": 1530111335,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -2658,8 +2460,6 @@
       "rank": 98,
       "total_value_num": 1522499999,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -2685,8 +2485,6 @@
       "rank": 99,
       "total_value_num": 1507536000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -2712,8 +2510,6 @@
       "rank": 100,
       "total_value_num": 1500000000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -2739,8 +2535,6 @@
       "rank": 101,
       "total_value_num": 1500000000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -2766,8 +2560,6 @@
       "rank": 102,
       "total_value_num": 1498000001,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -2793,8 +2585,6 @@
       "rank": 103,
       "total_value_num": 1497214472,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -2820,8 +2610,6 @@
       "rank": 104,
       "total_value_num": 1487500000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -2847,8 +2635,6 @@
       "rank": 105,
       "total_value_num": 1483044000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -2874,8 +2660,6 @@
       "rank": 106,
       "total_value_num": 1479464104,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -2901,8 +2685,6 @@
       "rank": 107,
       "total_value_num": 1465054932,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -2928,8 +2710,6 @@
       "rank": 108,
       "total_value_num": 1443270505,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -2955,8 +2735,6 @@
       "rank": 109,
       "total_value_num": 1441131231,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -2982,8 +2760,6 @@
       "rank": 110,
       "total_value_num": 1418544262,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -3009,8 +2785,6 @@
       "rank": 111,
       "total_value_num": 1410644366,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -3036,8 +2810,6 @@
       "rank": 112,
       "total_value_num": 1408069399,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -3063,8 +2835,6 @@
       "rank": 113,
       "total_value_num": 1391220069,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -3090,8 +2860,6 @@
       "rank": 114,
       "total_value_num": 1386724162,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -3117,8 +2885,6 @@
       "rank": 115,
       "total_value_num": 1353408000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -3144,8 +2910,6 @@
       "rank": 116,
       "total_value_num": 1337671379,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -3171,8 +2935,6 @@
       "rank": 117,
       "total_value_num": 1320000000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -3198,8 +2960,6 @@
       "rank": 118,
       "total_value_num": 1300143000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -3225,8 +2985,6 @@
       "rank": 119,
       "total_value_num": 1299107281,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -3252,8 +3010,6 @@
       "rank": 120,
       "total_value_num": 1281422484,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -3279,8 +3035,6 @@
       "rank": 121,
       "total_value_num": 1279702158,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -3306,8 +3060,6 @@
       "rank": 122,
       "total_value_num": 1278133000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -3333,8 +3085,6 @@
       "rank": 123,
       "total_value_num": 1238719967,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -3360,8 +3110,6 @@
       "rank": 124,
       "total_value_num": 1215380436,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -3387,8 +3135,6 @@
       "rank": 125,
       "total_value_num": 1207518283,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -3414,8 +3160,6 @@
       "rank": 126,
       "total_value_num": 1200000000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -3441,8 +3185,6 @@
       "rank": 127,
       "total_value_num": 1187700000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -3468,8 +3210,6 @@
       "rank": 128,
       "total_value_num": 1185910911,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -3495,8 +3235,6 @@
       "rank": 129,
       "total_value_num": 1171244496,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -3522,8 +3260,6 @@
       "rank": 130,
       "total_value_num": 1160097800,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -3549,8 +3285,6 @@
       "rank": 131,
       "total_value_num": 1143700000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -3576,8 +3310,6 @@
       "rank": 132,
       "total_value_num": 1132261050,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -3603,8 +3335,6 @@
       "rank": 133,
       "total_value_num": 1124211416,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -3630,8 +3360,6 @@
       "rank": 134,
       "total_value_num": 1114069230,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -3657,8 +3385,6 @@
       "rank": 135,
       "total_value_num": 1111555299,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -3684,8 +3410,6 @@
       "rank": 136,
       "total_value_num": 1108799260,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -3711,8 +3435,6 @@
       "rank": 137,
       "total_value_num": 1106792793,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -3738,8 +3460,6 @@
       "rank": 138,
       "total_value_num": 1102328530,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -3765,8 +3485,6 @@
       "rank": 139,
       "total_value_num": 1099000000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -3792,8 +3510,6 @@
       "rank": 140,
       "total_value_num": 1097019990,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -3819,8 +3535,6 @@
       "rank": 141,
       "total_value_num": 1081584000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -3846,8 +3560,6 @@
       "rank": 142,
       "total_value_num": 1081528378,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -3873,8 +3585,6 @@
       "rank": 143,
       "total_value_num": 1072246214,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -3900,8 +3610,6 @@
       "rank": 144,
       "total_value_num": 1067500000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -3927,8 +3635,6 @@
       "rank": 145,
       "total_value_num": 1067000000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -3954,8 +3660,6 @@
       "rank": 146,
       "total_value_num": 1063750000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -3981,8 +3685,6 @@
       "rank": 147,
       "total_value_num": 1052520000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -4008,8 +3710,6 @@
       "rank": 148,
       "total_value_num": 1045500000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -4035,8 +3735,6 @@
       "rank": 149,
       "total_value_num": 1034555086,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -4062,8 +3760,6 @@
       "rank": 150,
       "total_value_num": 1023200000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -4089,8 +3785,6 @@
       "rank": 151,
       "total_value_num": 1020994888,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -4116,8 +3810,6 @@
       "rank": 152,
       "total_value_num": 1018425000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -4143,8 +3835,6 @@
       "rank": 153,
       "total_value_num": 1014961803,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -4170,8 +3860,6 @@
       "rank": 154,
       "total_value_num": 1002696000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -4197,8 +3885,6 @@
       "rank": 155,
       "total_value_num": 1000002330,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -4224,8 +3910,6 @@
       "rank": 156,
       "total_value_num": 1000000000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -4251,8 +3935,6 @@
       "rank": 157,
       "total_value_num": 999007992,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -4278,8 +3960,6 @@
       "rank": 158,
       "total_value_num": 998990695,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -4305,8 +3985,6 @@
       "rank": 159,
       "total_value_num": 998915734,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -4332,8 +4010,6 @@
       "rank": 160,
       "total_value_num": 998796947,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -4359,8 +4035,6 @@
       "rank": 161,
       "total_value_num": 997500000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -4386,8 +4060,6 @@
       "rank": 162,
       "total_value_num": 995971200,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -4413,8 +4085,6 @@
       "rank": 163,
       "total_value_num": 995000000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -4440,8 +4110,6 @@
       "rank": 164,
       "total_value_num": 960840000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -4467,8 +4135,6 @@
       "rank": 165,
       "total_value_num": 952269000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -4494,8 +4160,6 @@
       "rank": 166,
       "total_value_num": 948700000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -4521,8 +4185,6 @@
       "rank": 167,
       "total_value_num": 938938098,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -4548,8 +4210,6 @@
       "rank": 168,
       "total_value_num": 937950000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -4575,8 +4235,6 @@
       "rank": 169,
       "total_value_num": 929389363,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -4602,8 +4260,6 @@
       "rank": 170,
       "total_value_num": 929388015,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -4629,8 +4285,6 @@
       "rank": 171,
       "total_value_num": 914061609,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -4656,8 +4310,6 @@
       "rank": 172,
       "total_value_num": 912664644,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -4683,8 +4335,6 @@
       "rank": 173,
       "total_value_num": 911297000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -4710,8 +4360,6 @@
       "rank": 174,
       "total_value_num": 910161096,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -4737,8 +4385,6 @@
       "rank": 175,
       "total_value_num": 902815548,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -4764,8 +4410,6 @@
       "rank": 176,
       "total_value_num": 899625474,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -4791,8 +4435,6 @@
       "rank": 177,
       "total_value_num": 899531124,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -4818,8 +4460,6 @@
       "rank": 178,
       "total_value_num": 897735061,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -4845,8 +4485,6 @@
       "rank": 179,
       "total_value_num": 896458254,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -4872,8 +4510,6 @@
       "rank": 180,
       "total_value_num": 894440000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -4899,8 +4535,6 @@
       "rank": 181,
       "total_value_num": 894315900,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -4926,8 +4560,6 @@
       "rank": 182,
       "total_value_num": 889002000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -4953,8 +4585,6 @@
       "rank": 183,
       "total_value_num": 880000000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -4980,8 +4610,6 @@
       "rank": 184,
       "total_value_num": 878640480,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -5007,8 +4635,6 @@
       "rank": 185,
       "total_value_num": 864905086,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -5034,8 +4660,6 @@
       "rank": 186,
       "total_value_num": 858515810,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -5061,8 +4685,6 @@
       "rank": 187,
       "total_value_num": 858021398,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -5088,8 +4710,6 @@
       "rank": 188,
       "total_value_num": 854069262,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -5115,8 +4735,6 @@
       "rank": 189,
       "total_value_num": 851473000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -5142,8 +4760,6 @@
       "rank": 190,
       "total_value_num": 847323220,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -5169,8 +4785,6 @@
       "rank": 191,
       "total_value_num": 846148290,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -5196,8 +4810,6 @@
       "rank": 192,
       "total_value_num": 842500000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -5223,8 +4835,6 @@
       "rank": 193,
       "total_value_num": 839160000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -5250,8 +4860,6 @@
       "rank": 194,
       "total_value_num": 835200000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -5277,8 +4885,6 @@
       "rank": 195,
       "total_value_num": 835175850,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -5304,8 +4910,6 @@
       "rank": 196,
       "total_value_num": 829276000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -5331,8 +4935,6 @@
       "rank": 197,
       "total_value_num": 826927800,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -5358,8 +4960,6 @@
       "rank": 198,
       "total_value_num": 819015800,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -5385,8 +4985,6 @@
       "rank": 199,
       "total_value_num": 810300000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -5412,8 +5010,6 @@
       "rank": 200,
       "total_value_num": 809121750,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -5439,8 +5035,6 @@
       "rank": 201,
       "total_value_num": 805194000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -5466,8 +5060,6 @@
       "rank": 202,
       "total_value_num": 800000000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -5493,8 +5085,6 @@
       "rank": 203,
       "total_value_num": 799585980,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -5520,8 +5110,6 @@
       "rank": 204,
       "total_value_num": 793035242,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -5547,8 +5135,6 @@
       "rank": 205,
       "total_value_num": 788100000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -5574,8 +5160,6 @@
       "rank": 206,
       "total_value_num": 770365397,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -5601,8 +5185,6 @@
       "rank": 207,
       "total_value_num": 769321184,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -5628,8 +5210,6 @@
       "rank": 208,
       "total_value_num": 766915650,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -5655,8 +5235,6 @@
       "rank": 209,
       "total_value_num": 759226613,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -5682,8 +5260,6 @@
       "rank": 210,
       "total_value_num": 758400000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -5709,8 +5285,6 @@
       "rank": 211,
       "total_value_num": 757141199,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -5736,8 +5310,6 @@
       "rank": 212,
       "total_value_num": 756168840,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -5763,8 +5335,6 @@
       "rank": 213,
       "total_value_num": 752136000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -5790,8 +5360,6 @@
       "rank": 214,
       "total_value_num": 751470000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -5817,8 +5385,6 @@
       "rank": 215,
       "total_value_num": 748698124,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -5844,8 +5410,6 @@
       "rank": 216,
       "total_value_num": 740673533,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -5871,8 +5435,6 @@
       "rank": 217,
       "total_value_num": 739945484,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -5898,8 +5460,6 @@
       "rank": 218,
       "total_value_num": 735642210,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -5925,8 +5485,6 @@
       "rank": 219,
       "total_value_num": 734619991,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -5952,8 +5510,6 @@
       "rank": 220,
       "total_value_num": 708760000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -5979,8 +5535,6 @@
       "rank": 221,
       "total_value_num": 705280000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -6006,8 +5560,6 @@
       "rank": 222,
       "total_value_num": 704000000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -6033,8 +5585,6 @@
       "rank": 223,
       "total_value_num": 702868350,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -6060,8 +5610,6 @@
       "rank": 224,
       "total_value_num": 693750000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -6087,8 +5635,6 @@
       "rank": 225,
       "total_value_num": 693627396,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -6114,8 +5660,6 @@
       "rank": 226,
       "total_value_num": 691891200,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -6141,8 +5685,6 @@
       "rank": 227,
       "total_value_num": 691222446,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -6168,8 +5710,6 @@
       "rank": 228,
       "total_value_num": 689374720,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -6195,8 +5735,6 @@
       "rank": 229,
       "total_value_num": 687437430,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -6222,8 +5760,6 @@
       "rank": 230,
       "total_value_num": 685278375,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -6249,8 +5785,6 @@
       "rank": 231,
       "total_value_num": 684115200,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -6276,8 +5810,6 @@
       "rank": 232,
       "total_value_num": 678555654,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -6303,8 +5835,6 @@
       "rank": 233,
       "total_value_num": 672299298,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -6330,8 +5860,6 @@
       "rank": 234,
       "total_value_num": 670000000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -6357,8 +5885,6 @@
       "rank": 235,
       "total_value_num": 669454193,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -6384,8 +5910,6 @@
       "rank": 236,
       "total_value_num": 666648000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -6411,8 +5935,6 @@
       "rank": 237,
       "total_value_num": 665357995,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -6438,8 +5960,6 @@
       "rank": 238,
       "total_value_num": 657670009,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -6465,8 +5985,6 @@
       "rank": 239,
       "total_value_num": 654791680,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -6492,8 +6010,6 @@
       "rank": 240,
       "total_value_num": 654000000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -6519,8 +6035,6 @@
       "rank": 241,
       "total_value_num": 651461631,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -6546,8 +6060,6 @@
       "rank": 242,
       "total_value_num": 639532755,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -6573,8 +6085,6 @@
       "rank": 243,
       "total_value_num": 636260658,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -6600,8 +6110,6 @@
       "rank": 244,
       "total_value_num": 634583240,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -6627,8 +6135,6 @@
       "rank": 245,
       "total_value_num": 630013545,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -6654,8 +6160,6 @@
       "rank": 246,
       "total_value_num": 627000000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -6681,8 +6185,6 @@
       "rank": 247,
       "total_value_num": 621600000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -6708,8 +6210,6 @@
       "rank": 248,
       "total_value_num": 619583940,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -6735,8 +6235,6 @@
       "rank": 249,
       "total_value_num": 618918000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -6762,8 +6260,6 @@
       "rank": 250,
       "total_value_num": 616897710,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -6789,8 +6285,6 @@
       "rank": 251,
       "total_value_num": 615600000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -6816,8 +6310,6 @@
       "rank": 252,
       "total_value_num": 614690140,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -6843,8 +6335,6 @@
       "rank": 253,
       "total_value_num": 610118500,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -6870,8 +6360,6 @@
       "rank": 254,
       "total_value_num": 606499187,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -6897,8 +6385,6 @@
       "rank": 255,
       "total_value_num": 604300000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -6924,8 +6410,6 @@
       "rank": 256,
       "total_value_num": 603992567,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -6951,8 +6435,6 @@
       "rank": 257,
       "total_value_num": 603539996,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -6978,8 +6460,6 @@
       "rank": 258,
       "total_value_num": 598541600,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -7005,8 +6485,6 @@
       "rank": 259,
       "total_value_num": 597836232,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -7032,8 +6510,6 @@
       "rank": 260,
       "total_value_num": 594621228,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -7059,8 +6535,6 @@
       "rank": 261,
       "total_value_num": 594621228,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -7086,8 +6560,6 @@
       "rank": 262,
       "total_value_num": 594200000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -7113,8 +6585,6 @@
       "rank": 263,
       "total_value_num": 591137160,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -7140,8 +6610,6 @@
       "rank": 264,
       "total_value_num": 583907057,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -7167,8 +6635,6 @@
       "rank": 265,
       "total_value_num": 571750361,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -7194,8 +6660,6 @@
       "rank": 266,
       "total_value_num": 566200000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -7221,8 +6685,6 @@
       "rank": 267,
       "total_value_num": 566062423,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -7248,8 +6710,6 @@
       "rank": 268,
       "total_value_num": 563325000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -7275,8 +6735,6 @@
       "rank": 269,
       "total_value_num": 558861825,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -7302,8 +6760,6 @@
       "rank": 270,
       "total_value_num": 558650017,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -7329,8 +6785,6 @@
       "rank": 271,
       "total_value_num": 556387858,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -7356,8 +6810,6 @@
       "rank": 272,
       "total_value_num": 552000000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -7383,8 +6835,6 @@
       "rank": 273,
       "total_value_num": 551514589,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -7410,8 +6860,6 @@
       "rank": 274,
       "total_value_num": 550681212,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -7437,8 +6885,6 @@
       "rank": 275,
       "total_value_num": 550453333,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -7464,8 +6910,6 @@
       "rank": 276,
       "total_value_num": 546322300,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -7491,8 +6935,6 @@
       "rank": 277,
       "total_value_num": 543639972,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -7518,8 +6960,6 @@
       "rank": 278,
       "total_value_num": 543000000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -7545,8 +6985,6 @@
       "rank": 279,
       "total_value_num": 539460000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -7572,8 +7010,6 @@
       "rank": 280,
       "total_value_num": 536640000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -7599,8 +7035,6 @@
       "rank": 281,
       "total_value_num": 536584399,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -7626,8 +7060,6 @@
       "rank": 282,
       "total_value_num": 536400000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -7653,8 +7085,6 @@
       "rank": 283,
       "total_value_num": 534881976,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -7680,8 +7110,6 @@
       "rank": 284,
       "total_value_num": 534112352,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -7707,8 +7135,6 @@
       "rank": 285,
       "total_value_num": 533978981,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -7734,8 +7160,6 @@
       "rank": 286,
       "total_value_num": 532800000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -7761,8 +7185,6 @@
       "rank": 287,
       "total_value_num": 530772549,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -7788,8 +7210,6 @@
       "rank": 288,
       "total_value_num": 528994110,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -7815,8 +7235,6 @@
       "rank": 289,
       "total_value_num": 527368015,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -7842,8 +7260,6 @@
       "rank": 290,
       "total_value_num": 524967135,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -7869,8 +7285,6 @@
       "rank": 291,
       "total_value_num": 513952775,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -7896,8 +7310,6 @@
       "rank": 292,
       "total_value_num": 511912380,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -7923,8 +7335,6 @@
       "rank": 293,
       "total_value_num": 511042440,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -7950,8 +7360,6 @@
       "rank": 294,
       "total_value_num": 506687250,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -7977,8 +7385,6 @@
       "rank": 295,
       "total_value_num": 506600000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -8004,8 +7410,6 @@
       "rank": 296,
       "total_value_num": 505500000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -8031,8 +7435,6 @@
       "rank": 297,
       "total_value_num": 504415000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -8058,8 +7460,6 @@
       "rank": 298,
       "total_value_num": 503456040,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -8085,8 +7485,6 @@
       "rank": 299,
       "total_value_num": 498834000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -8112,8 +7510,6 @@
       "rank": 300,
       "total_value_num": 498201300,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -8139,8 +7535,6 @@
       "rank": 301,
       "total_value_num": 498134000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -8166,8 +7560,6 @@
       "rank": 302,
       "total_value_num": 497100000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -8193,8 +7585,6 @@
       "rank": 303,
       "total_value_num": 496945000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -8220,8 +7610,6 @@
       "rank": 304,
       "total_value_num": 491466000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -8247,8 +7635,6 @@
       "rank": 305,
       "total_value_num": 490388900,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -8274,8 +7660,6 @@
       "rank": 306,
       "total_value_num": 490050000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -8301,8 +7685,6 @@
       "rank": 307,
       "total_value_num": 489766594,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -8328,8 +7710,6 @@
       "rank": 308,
       "total_value_num": 489660960,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -8355,8 +7735,6 @@
       "rank": 309,
       "total_value_num": 488702577,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -8382,8 +7760,6 @@
       "rank": 310,
       "total_value_num": 486495000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -8409,8 +7785,6 @@
       "rank": 311,
       "total_value_num": 485608152,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -8436,8 +7810,6 @@
       "rank": 312,
       "total_value_num": 483843450,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -8463,8 +7835,6 @@
       "rank": 313,
       "total_value_num": 482286495,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -8490,8 +7860,6 @@
       "rank": 314,
       "total_value_num": 478200600,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -8517,8 +7885,6 @@
       "rank": 315,
       "total_value_num": 477840000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -8544,8 +7910,6 @@
       "rank": 316,
       "total_value_num": 477300000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -8571,8 +7935,6 @@
       "rank": 317,
       "total_value_num": 477190000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -8598,8 +7960,6 @@
       "rank": 318,
       "total_value_num": 476927880,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -8625,8 +7985,6 @@
       "rank": 319,
       "total_value_num": 476800000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -8652,8 +8010,6 @@
       "rank": 320,
       "total_value_num": 475225965,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -8679,8 +8035,6 @@
       "rank": 321,
       "total_value_num": 473195118,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -8706,8 +8060,6 @@
       "rank": 322,
       "total_value_num": 473195118,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -8733,8 +8085,6 @@
       "rank": 323,
       "total_value_num": 472000000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -8760,8 +8110,6 @@
       "rank": 324,
       "total_value_num": 471233106,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -8787,8 +8135,6 @@
       "rank": 325,
       "total_value_num": 469570973,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -8814,8 +8160,6 @@
       "rank": 326,
       "total_value_num": 469530000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -8841,8 +8185,6 @@
       "rank": 327,
       "total_value_num": 467400000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -8868,8 +8210,6 @@
       "rank": 328,
       "total_value_num": 464940936,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -8895,8 +8235,6 @@
       "rank": 329,
       "total_value_num": 463776648,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -8922,8 +8260,6 @@
       "rank": 330,
       "total_value_num": 462618000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -8949,8 +8285,6 @@
       "rank": 331,
       "total_value_num": 462484150,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -8976,8 +8310,6 @@
       "rank": 332,
       "total_value_num": 461693400,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -9003,8 +8335,6 @@
       "rank": 333,
       "total_value_num": 460445333,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -9030,8 +8360,6 @@
       "rank": 334,
       "total_value_num": 460000000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -9057,8 +8385,6 @@
       "rank": 335,
       "total_value_num": 459494467,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -9084,8 +8410,6 @@
       "rank": 336,
       "total_value_num": 457947000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -9111,8 +8435,6 @@
       "rank": 337,
       "total_value_num": 457894157,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -9138,8 +8460,6 @@
       "rank": 338,
       "total_value_num": 455178000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -9165,8 +8485,6 @@
       "rank": 339,
       "total_value_num": 454977900,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -9192,8 +8510,6 @@
       "rank": 340,
       "total_value_num": 452594485,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -9219,8 +8535,6 @@
       "rank": 341,
       "total_value_num": 451964542,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -9246,8 +8560,6 @@
       "rank": 342,
       "total_value_num": 449400000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -9273,8 +8585,6 @@
       "rank": 343,
       "total_value_num": 449380000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -9300,8 +8610,6 @@
       "rank": 344,
       "total_value_num": 448550112,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -9327,8 +8635,6 @@
       "rank": 345,
       "total_value_num": 448500000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -9354,8 +8660,6 @@
       "rank": 346,
       "total_value_num": 448340000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -9381,8 +8685,6 @@
       "rank": 347,
       "total_value_num": 447640380,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -9408,8 +8710,6 @@
       "rank": 348,
       "total_value_num": 443800358,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -9435,8 +8735,6 @@
       "rank": 349,
       "total_value_num": 443556000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -9462,8 +8760,6 @@
       "rank": 350,
       "total_value_num": 440631150,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -9489,8 +8785,6 @@
       "rank": 351,
       "total_value_num": 439507597,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -9516,8 +8810,6 @@
       "rank": 352,
       "total_value_num": 436972283,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -9543,8 +8835,6 @@
       "rank": 353,
       "total_value_num": 435513000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -9570,8 +8860,6 @@
       "rank": 354,
       "total_value_num": 435480750,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -9597,8 +8885,6 @@
       "rank": 355,
       "total_value_num": 435186730,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -9624,8 +8910,6 @@
       "rank": 356,
       "total_value_num": 434515101,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -9651,8 +8935,6 @@
       "rank": 357,
       "total_value_num": 434085000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -9678,8 +8960,6 @@
       "rank": 358,
       "total_value_num": 429612624,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -9705,8 +8985,6 @@
       "rank": 359,
       "total_value_num": 426399205,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -9732,8 +9010,6 @@
       "rank": 360,
       "total_value_num": 424795250,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -9759,8 +9035,6 @@
       "rank": 361,
       "total_value_num": 423629833,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -9786,8 +9060,6 @@
       "rank": 362,
       "total_value_num": 422531208,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -9813,8 +9085,6 @@
       "rank": 363,
       "total_value_num": 422072360,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -9840,8 +9110,6 @@
       "rank": 364,
       "total_value_num": 420468000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -9867,8 +9135,6 @@
       "rank": 365,
       "total_value_num": 420000024,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -9894,8 +9160,6 @@
       "rank": 366,
       "total_value_num": 417915000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -9921,8 +9185,6 @@
       "rank": 367,
       "total_value_num": 417200000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -9948,8 +9210,6 @@
       "rank": 368,
       "total_value_num": 417200000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -9975,8 +9235,6 @@
       "rank": 369,
       "total_value_num": 414074500,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -10002,8 +9260,6 @@
       "rank": 370,
       "total_value_num": 411607980,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -10029,8 +9285,6 @@
       "rank": 371,
       "total_value_num": 409332000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -10056,8 +9310,6 @@
       "rank": 372,
       "total_value_num": 409229303,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -10083,8 +9335,6 @@
       "rank": 373,
       "total_value_num": 408127091,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -10110,8 +9360,6 @@
       "rank": 374,
       "total_value_num": 406000000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -10137,8 +9385,6 @@
       "rank": 375,
       "total_value_num": 403530022,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -10164,8 +9410,6 @@
       "rank": 376,
       "total_value_num": 402771075,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -10191,8 +9435,6 @@
       "rank": 377,
       "total_value_num": 402284189,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -10218,8 +9460,6 @@
       "rank": 378,
       "total_value_num": 401816714,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -10245,8 +9485,6 @@
       "rank": 379,
       "total_value_num": 399600000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -10272,8 +9510,6 @@
       "rank": 380,
       "total_value_num": 399168000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -10299,8 +9535,6 @@
       "rank": 381,
       "total_value_num": 398950650,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -10326,8 +9560,6 @@
       "rank": 382,
       "total_value_num": 398429873,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -10353,8 +9585,6 @@
       "rank": 383,
       "total_value_num": 397968300,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -10380,8 +9610,6 @@
       "rank": 384,
       "total_value_num": 397934023,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -10407,8 +9635,6 @@
       "rank": 385,
       "total_value_num": 397060792,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -10434,8 +9660,6 @@
       "rank": 386,
       "total_value_num": 396927209,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -10461,8 +9685,6 @@
       "rank": 387,
       "total_value_num": 396603000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -10488,8 +9710,6 @@
       "rank": 388,
       "total_value_num": 395242547,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -10515,8 +9735,6 @@
       "rank": 389,
       "total_value_num": 394038900,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -10542,8 +9760,6 @@
       "rank": 390,
       "total_value_num": 393770481,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -10569,8 +9785,6 @@
       "rank": 391,
       "total_value_num": 392230500,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -10596,8 +9810,6 @@
       "rank": 392,
       "total_value_num": 391600075,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -10623,8 +9835,6 @@
       "rank": 393,
       "total_value_num": 391009887,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -10650,8 +9860,6 @@
       "rank": 394,
       "total_value_num": 390118451,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -10677,8 +9885,6 @@
       "rank": 395,
       "total_value_num": 389458300,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -10704,8 +9910,6 @@
       "rank": 396,
       "total_value_num": 388500000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -10731,8 +9935,6 @@
       "rank": 397,
       "total_value_num": 388500000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -10758,8 +9960,6 @@
       "rank": 398,
       "total_value_num": 387400000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -10785,8 +9985,6 @@
       "rank": 399,
       "total_value_num": 387190200,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -10812,8 +10010,6 @@
       "rank": 400,
       "total_value_num": 386958024,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -10839,8 +10035,6 @@
       "rank": 401,
       "total_value_num": 386478000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -10866,8 +10060,6 @@
       "rank": 402,
       "total_value_num": 383998550,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -10893,8 +10085,6 @@
       "rank": 403,
       "total_value_num": 383792894,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -10920,8 +10110,6 @@
       "rank": 404,
       "total_value_num": 383530371,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -10947,8 +10135,6 @@
       "rank": 405,
       "total_value_num": 383300000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -10974,8 +10160,6 @@
       "rank": 406,
       "total_value_num": 382184000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -11001,8 +10185,6 @@
       "rank": 407,
       "total_value_num": 381480417,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -11028,8 +10210,6 @@
       "rank": 408,
       "total_value_num": 381143568,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -11055,8 +10235,6 @@
       "rank": 409,
       "total_value_num": 379200000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -11082,8 +10260,6 @@
       "rank": 410,
       "total_value_num": 379200000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -11109,8 +10285,6 @@
       "rank": 411,
       "total_value_num": 378056653,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -11136,8 +10310,6 @@
       "rank": 412,
       "total_value_num": 377697772,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -11163,8 +10335,6 @@
       "rank": 413,
       "total_value_num": 376958869,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -11190,8 +10360,6 @@
       "rank": 414,
       "total_value_num": 376831203,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -11217,8 +10385,6 @@
       "rank": 415,
       "total_value_num": 376601478,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -11244,8 +10410,6 @@
       "rank": 416,
       "total_value_num": 375700000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -11271,8 +10435,6 @@
       "rank": 417,
       "total_value_num": 375336368,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -11298,8 +10460,6 @@
       "rank": 418,
       "total_value_num": 375000000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -11325,8 +10485,6 @@
       "rank": 419,
       "total_value_num": 374736000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -11352,8 +10510,6 @@
       "rank": 420,
       "total_value_num": 371556046,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -11379,8 +10535,6 @@
       "rank": 421,
       "total_value_num": 371555000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -11406,8 +10560,6 @@
       "rank": 422,
       "total_value_num": 371025764,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -11433,8 +10585,6 @@
       "rank": 423,
       "total_value_num": 370549500,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -11460,8 +10610,6 @@
       "rank": 424,
       "total_value_num": 368017760,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -11487,8 +10635,6 @@
       "rank": 425,
       "total_value_num": 367882710,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -11514,8 +10660,6 @@
       "rank": 426,
       "total_value_num": 366575797,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -11541,8 +10685,6 @@
       "rank": 427,
       "total_value_num": 366342887,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -11568,8 +10710,6 @@
       "rank": 428,
       "total_value_num": 366200000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -11595,8 +10735,6 @@
       "rank": 429,
       "total_value_num": 365980000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -11622,8 +10760,6 @@
       "rank": 430,
       "total_value_num": 365301000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -11649,8 +10785,6 @@
       "rank": 431,
       "total_value_num": 363660004,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -11676,8 +10810,6 @@
       "rank": 432,
       "total_value_num": 363588173,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -11703,8 +10835,6 @@
       "rank": 433,
       "total_value_num": 362204569,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -11730,8 +10860,6 @@
       "rank": 434,
       "total_value_num": 362032050,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -11757,8 +10885,6 @@
       "rank": 435,
       "total_value_num": 361819995,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -11784,8 +10910,6 @@
       "rank": 436,
       "total_value_num": 361800000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -11811,8 +10935,6 @@
       "rank": 437,
       "total_value_num": 361480000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -11838,8 +10960,6 @@
       "rank": 438,
       "total_value_num": 361200000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -11865,8 +10985,6 @@
       "rank": 439,
       "total_value_num": 360350400,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -11892,8 +11010,6 @@
       "rank": 440,
       "total_value_num": 359997216,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -11919,8 +11035,6 @@
       "rank": 441,
       "total_value_num": 359014896,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -11946,8 +11060,6 @@
       "rank": 442,
       "total_value_num": 358000000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -11973,8 +11085,6 @@
       "rank": 443,
       "total_value_num": 357600000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -12000,8 +11110,6 @@
       "rank": 444,
       "total_value_num": 357000000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -12027,8 +11135,6 @@
       "rank": 445,
       "total_value_num": 355371810,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -12054,8 +11160,6 @@
       "rank": 446,
       "total_value_num": 354591720,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -12081,8 +11185,6 @@
       "rank": 447,
       "total_value_num": 354000000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -12108,8 +11210,6 @@
       "rank": 448,
       "total_value_num": 353535000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -12135,8 +11235,6 @@
       "rank": 449,
       "total_value_num": 352788177,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -12162,8 +11260,6 @@
       "rank": 450,
       "total_value_num": 352089867,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -12189,8 +11285,6 @@
       "rank": 451,
       "total_value_num": 350998971,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -12216,8 +11310,6 @@
       "rank": 452,
       "total_value_num": 350677120,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -12243,8 +11335,6 @@
       "rank": 453,
       "total_value_num": 346979340,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -12270,8 +11360,6 @@
       "rank": 454,
       "total_value_num": 346419456,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -12297,8 +11385,6 @@
       "rank": 455,
       "total_value_num": 344331000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -12324,8 +11410,6 @@
       "rank": 456,
       "total_value_num": 343436077,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -12351,8 +11435,6 @@
       "rank": 457,
       "total_value_num": 343345200,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -12378,8 +11460,6 @@
       "rank": 458,
       "total_value_num": 343327536,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -12405,8 +11485,6 @@
       "rank": 459,
       "total_value_num": 343327536,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -12432,8 +11510,6 @@
       "rank": 460,
       "total_value_num": 343200000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -12459,8 +11535,6 @@
       "rank": 461,
       "total_value_num": 343000000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -12486,8 +11560,6 @@
       "rank": 462,
       "total_value_num": 343000000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -12513,8 +11585,6 @@
       "rank": 463,
       "total_value_num": 341334869,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -12540,8 +11610,6 @@
       "rank": 464,
       "total_value_num": 340500673,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -12567,8 +11635,6 @@
       "rank": 465,
       "total_value_num": 340000000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -12594,8 +11660,6 @@
       "rank": 466,
       "total_value_num": 339853950,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -12621,8 +11685,6 @@
       "rank": 467,
       "total_value_num": 338525846,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -12648,8 +11710,6 @@
       "rank": 468,
       "total_value_num": 336000000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -12675,8 +11735,6 @@
       "rank": 469,
       "total_value_num": 335654000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -12702,8 +11760,6 @@
       "rank": 470,
       "total_value_num": 335306997,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -12729,8 +11785,6 @@
       "rank": 471,
       "total_value_num": 335113500,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -12756,8 +11810,6 @@
       "rank": 472,
       "total_value_num": 335011894,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -12783,8 +11835,6 @@
       "rank": 473,
       "total_value_num": 334624228,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -12810,8 +11860,6 @@
       "rank": 474,
       "total_value_num": 334110000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -12837,8 +11885,6 @@
       "rank": 475,
       "total_value_num": 334110000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -12864,8 +11910,6 @@
       "rank": 476,
       "total_value_num": 333666485,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -12891,8 +11935,6 @@
       "rank": 477,
       "total_value_num": 332322900,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -12918,8 +11960,6 @@
       "rank": 478,
       "total_value_num": 330415900,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -12945,8 +11985,6 @@
       "rank": 479,
       "total_value_num": 330000000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -12972,8 +12010,6 @@
       "rank": 480,
       "total_value_num": 329697095,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -12999,8 +12035,6 @@
       "rank": 481,
       "total_value_num": 326284800,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -13026,8 +12060,6 @@
       "rank": 482,
       "total_value_num": 326209862,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -13053,8 +12085,6 @@
       "rank": 483,
       "total_value_num": 324568804,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -13080,8 +12110,6 @@
       "rank": 484,
       "total_value_num": 324342000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -13107,8 +12135,6 @@
       "rank": 485,
       "total_value_num": 324163302,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -13134,8 +12160,6 @@
       "rank": 486,
       "total_value_num": 322445380,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -13161,8 +12185,6 @@
       "rank": 487,
       "total_value_num": 322401165,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -13188,8 +12210,6 @@
       "rank": 488,
       "total_value_num": 322070000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -13215,8 +12235,6 @@
       "rank": 489,
       "total_value_num": 321660200,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -13242,8 +12260,6 @@
       "rank": 490,
       "total_value_num": 321483669,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -13269,8 +12285,6 @@
       "rank": 491,
       "total_value_num": 321012000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -13296,8 +12310,6 @@
       "rank": 492,
       "total_value_num": 320600000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -13323,8 +12335,6 @@
       "rank": 493,
       "total_value_num": 320100000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -13350,8 +12360,6 @@
       "rank": 494,
       "total_value_num": 319200000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -13377,8 +12385,6 @@
       "rank": 495,
       "total_value_num": 316000000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -13404,8 +12410,6 @@
       "rank": 496,
       "total_value_num": 315560568,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -13431,8 +12435,6 @@
       "rank": 497,
       "total_value_num": 315064970,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -13458,8 +12460,6 @@
       "rank": 498,
       "total_value_num": 314300000,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -13485,8 +12485,6 @@
       "rank": 499,
       "total_value_num": 314269060,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     },
     {
@@ -13512,8 +12510,6 @@
       "rank": 500,
       "total_value_num": 314020854,
       "score": null,
-      "lat": -8.4095,
-      "lng": 115.1889,
       "show": false
     }
   ]

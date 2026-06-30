@@ -6,21 +6,6 @@ const SOURCE_DB = "data/raw/bali-inaproc-2025.sqlite";
 const OUTPUT_DIR = "data/spending";
 const LIMIT_PER_REGION = 500;
 
-const BALI_CENTROIDS: Record<string, { lat: number; lng: number }> = {
-  "Provinsi Bali": { lat: -8.4095, lng: 115.1889 },
-  "KAB. Badung": { lat: -8.5819, lng: 115.1771 },
-  "Pemerintah Daerah Kota Denpasar": { lat: -8.6705, lng: 115.2126 },
-  "KAB. Jembrana": { lat: -8.3599, lng: 114.6298 },
-  "KAB. Bangli": { lat: -8.4543, lng: 115.3549 },
-  "KAB. Buleleng": { lat: -8.1135, lng: 115.1263 },
-  "KAB. Gianyar": { lat: -8.5442, lng: 115.3252 },
-  "KAB. Klungkung": { lat: -8.7278, lng: 115.5444 },
-  "KAB. Tabanan": { lat: -8.5449, lng: 115.1258 },
-  "KAB. Karangasem": { lat: -8.4243, lng: 115.6186 },
-};
-
-const BALI_FALLBACK = BALI_CENTROIDS["Provinsi Bali"]!;
-
 const SLUG_BY_INSTANSI: Record<string, string> = {
   "Provinsi Bali": "provinsi-bali",
   "KAB. Badung": "kab-badung",
@@ -60,8 +45,6 @@ type SpendingItem = RealisasiRow & {
   rank: number;
   total_value_num: number;
   score: number | null;
-  lat: number;
-  lng: number;
   show: boolean;
 };
 
@@ -77,7 +60,6 @@ type RegionExport = {
     limit: number;
     count: number;
     total_rows_in_source: number;
-    centroid: { lat: number; lng: number };
   };
   items: SpendingItem[];
 };
@@ -122,7 +104,6 @@ for (const region of regions) {
     continue;
   }
 
-  const centroid = BALI_CENTROIDS[instansi_name] ?? BALI_FALLBACK;
   const instansi = instansiByName.get(instansi_name);
 
   const rows = db
@@ -140,8 +121,6 @@ for (const region of regions) {
     rank: index + 1,
     total_value_num: Number(row.total_value),
     score: null,
-    lat: centroid.lat,
-    lng: centroid.lng,
     show: false,
   }));
 
@@ -157,7 +136,6 @@ for (const region of regions) {
       limit: LIMIT_PER_REGION,
       count: items.length,
       total_rows_in_source: region.total_rows,
-      centroid,
     },
     items,
   };

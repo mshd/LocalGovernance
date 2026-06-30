@@ -35,3 +35,5 @@ report.[0-9]_.[0-9]_.[0-9]_.[0-9]_.json
 
 # raw source databases (local only)
 data/raw/
+.vercel
+.env*

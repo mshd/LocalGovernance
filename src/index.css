@@ -63,11 +63,31 @@ body,
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
-.map-toolbar label {
+.map-toolbar label,
+.map-toolbar-field {
   display: flex;
   align-items: center;
   gap: 0.375rem;
   cursor: pointer;
+}
+
+.map-toolbar-field span {
+  color: #cbd5e1;
+}
+
+.map-toolbar select {
+  background: #1e293b;
+  color: #f8fafc;
+  border: 1px solid #475569;
+  border-radius: 0.375rem;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.8125rem;
+  cursor: pointer;
+}
+
+.map-toolbar select:focus {
+  outline: 2px solid #64748b;
+  outline-offset: 1px;
 }
 
 .map-loading {
